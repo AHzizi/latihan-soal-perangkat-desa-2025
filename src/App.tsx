@@ -6,12 +6,12 @@ function App() {
   const [isDark, setIsDark] = useState(true);
 
   return (
-    <div className={`min-h-screen transition-colors duration-300 ${
+    <div className={`min-h-screen transition-colors duration-300 flex flex-col items-center ${
       isDark ? 'bg-gradient-to-br from-gray-800 to-teal-900' : 'bg-gradient-to-br from-gray-100 to-teal-100'
     }`}>
       <button
         onClick={() => setIsDark(!isDark)}
-        className="fixed top-4 right-4 p-2 rounded-full bg-white/10 backdrop-blur-lg hover:bg-white/20 transition-all duration-300"
+        className="fixed bottom-4 left-4 p-2 rounded-full bg-white/10 backdrop-blur-lg hover:bg-white/20 transition-all duration-300"
         aria-label="Toggle theme"
       >
         {isDark ? (
@@ -21,15 +21,19 @@ function App() {
         )}
       </button>
       
-      <div className="container mx-auto px-4 py-8">
-        <h1 className={`text-center text-2xl md:text-3xl font-bold mb-8 ${
-          isDark ? 'text-white' : 'text-gray-800'
-        }`}>
-          Latihan Soal UU Desa Terbaru<br />
-          <span className="text-lg md:text-xl opacity-90">
+      <div className="container max-w-4xl mx-auto px-4 py-8">
+        <div className="text-center mb-12">
+          <h1 className={`text-3xl md:text-4xl font-bold mb-4 ${
+            isDark ? 'text-white' : 'text-gray-800'
+          }`}>
+            Latihan Soal UU Desa Terbaru
+          </h1>
+          <p className={`text-xl md:text-2xl ${
+            isDark ? 'text-white/90' : 'text-gray-700'
+          }`}>
             (UU No. 3 Tahun 2024) Untuk Tes Perangkat Desa 2025
-          </span>
-        </h1>
+          </p>
+        </div>
         <Quiz />
       </div>
     </div>

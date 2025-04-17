@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { ChevronLeft, ChevronRight, SkipForward } from 'lucide-react';
 import type { Question, QuizState, UserInfo } from '../types';
 import { UserForm } from './UserForm';
 import { questions } from '../data/questions';
@@ -32,6 +33,29 @@ export function Quiz() {
     }));
   };
 
+  const handlePrevQuestion = () => {
+    setState(prev => ({
+      ...prev,
+      currentQuestionIndex: Math.max(0, prev.currentQuestionIndex - 1),
+    }));
+  };
+
+  const handleNextQuestion = () => {
+    setState(prev => ({
+      ...prev,
+      currentQuestionIndex: Math.min(questions.length - 1, prev.currentQuestionIndex + 1),
+    }));
+  };
+
+  const handleSkipQuestion = () => {
+    const isLastQuestion = state.currentQuestionIndex === questions.length - 1;
+    setState(prev => ({
+      ...prev,
+      currentQuestionIndex: isLastQuestion ? prev.currentQuestionIndex : prev.currentQuestionIndex + 1,
+      showResults: isLastQuestion,
+    }));
+  };
+
   const currentQuestion = questions[state.currentQuestionIndex];
 
   if (!state.userInfo) {
@@ -40,9 +64,9 @@ export function Quiz() {
 
   if (state.showResults) {
     return (
-      <div className="w-full max-w-2xl p-8 mx-auto bg-gray-800/40 backdrop-blur-lg rounded-xl shadow-lg transition-all duration-300">
+      <div className="w-full max-w-3xl mx-auto p-8 bg-gray-800/40 backdrop-blur-lg rounded-xl shadow-lg transition-all duration-300">
         <h2 className="text-2xl font-bold mb-6 text-center text-white">Hasil Ujian</h2>
-        <div className="text-center mb-6">
+        <div className="text-center mb-8">
           <p className="text-xl text-white mb-2">
             {state.userInfo.firstName} {state.userInfo.lastName}
           </p>
@@ -61,27 +85,28 @@ export function Quiz() {
             return (
               <div 
                 key={q.id}
-                className={`p-4 rounded-lg ${
+                className={`p-6 rounded-lg ${
                   isCorrect ? 'bg-teal-500/20' : 'bg-red-500/20'
                 }`}
               >
-                <p className="font-medium text-white mb-2">
+                <p className="font-medium text-white mb-3">
                   {index + 1}. {q.question}
                 </p>
-                <p className="text-sm text-white/80">
-                  Jawaban Anda: {Array.isArray(q.options) 
-                    ? q.options[userAnswer as number]
-                    : q.options[userAnswer as string]
-                  }
+                <p className="text-sm text-white/80 mb-2">
+                  Jawaban Anda: {userAnswer === undefined ? 'Tidak dijawab' : (
+                    Array.isArray(q.options) 
+                      ? q.options[userAnswer as number]
+                      : q.options[userAnswer as string]
+                  )}
                 </p>
-                <p className="text-sm text-white/80">
+                <p className="text-sm text-white/80 mb-2">
                   Jawaban Benar: {Array.isArray(q.options)
                     ? q.options[q.correctAnswer as number]
                     : q.options[q.correctAnswer as string]
                   }
                 </p>
                 {q.explanation && (
-                  <p className="text-sm text-white/90 mt-2 italic">
+                  <p className="text-sm text-white/90 mt-3 italic">
                     {q.explanation}
                   </p>
                 )}
@@ -95,14 +120,14 @@ export function Quiz() {
 
   if (!currentQuestion) {
     return (
-      <div className="w-full max-w-2xl p-8 mx-auto bg-gray-800/40 backdrop-blur-lg rounded-xl shadow-lg">
+      <div className="w-full max-w-3xl mx-auto p-8 bg-gray-800/40 backdrop-blur-lg rounded-xl shadow-lg">
         <p className="text-white text-center">Tidak ada soal tersedia.</p>
       </div>
     );
   }
 
   return (
-    <div className="w-full max-w-2xl p-8 mx-auto bg-gray-800/40 backdrop-blur-lg rounded-xl shadow-lg transition-all duration-300">
+    <div className="w-full max-w-3xl mx-auto p-8 bg-gray-800/40 backdrop-blur-lg rounded-xl shadow-lg transition-all duration-300">
       <div className="mb-8">
         <div className="flex justify-between items-center mb-4">
           <p className="text-white/80">
@@ -145,6 +170,32 @@ export function Quiz() {
             </button>
           ))
         }
+      </div>
+
+      <div className="fixed bottom-4 right-4 flex gap-2">
+        <button
+          onClick={handlePrevQuestion}
+          disabled={state.currentQuestionIndex === 0}
+          className="p-2 bg-gray-700/40 hover:bg-gray-600/40 disabled:opacity-50 disabled:cursor-not-allowed rounded-full text-white transition-all duration-300"
+          aria-label="Previous question"
+        >
+          <ChevronLeft className="w-6 h-6" />
+        </button>
+        <button
+          onClick={handleSkipQuestion}
+          className="p-2 bg-gray-700/40 hover:bg-gray-600/40 rounded-full text-white transition-all duration-300"
+          aria-label="Skip question"
+        >
+          <SkipForward className="w-6 h-6" />
+        </button>
+        <button
+          onClick={handleNextQuestion}
+          disabled={state.currentQuestionIndex === questions.length - 1}
+          className="p-2 bg-gray-700/40 hover:bg-gray-600/40 disabled:opacity-50 disabled:cursor-not-allowed rounded-full text-white transition-all duration-300"
+          aria-label="Next question"
+        >
+          <ChevronRight className="w-6 h-6" />
+        </button>
       </div>
     </div>
   );
