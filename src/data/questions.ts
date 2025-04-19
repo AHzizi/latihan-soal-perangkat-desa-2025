@@ -266,10 +266,10 @@ export const questions: Question[] = [
       a: "3 tahun",
       b: "4 tahun",
       c: "5 tahun",
-      d: "6 tahun"
+      d: "8 tahun"
     },
     correctAnswer: "d",
-    explanation: "Masa jabatan Kepala Desa adalah 6 tahun dan dapat dipilih kembali untuk maksimal 3 kali masa jabatan."
+    explanation: "Masa jabatan Kepala Desa adalah 8 tahun dan dapat dipilih kembali untuk maksimal 2 kali masa jabatan."
   },
   {
     id: 34,

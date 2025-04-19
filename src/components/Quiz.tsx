@@ -21,15 +21,16 @@ export function Quiz() {
     const currentQuestion = questions[state.currentQuestionIndex];
     if (!currentQuestion) return;
     
+    // Only update score if this question hasn't been answered before
+    const isNewAnswer = !(currentQuestion.id in state.answers);
     const isCorrect = answer === currentQuestion.correctAnswer;
     const isLastQuestion = state.currentQuestionIndex === questions.length - 1;
     
     setState(prev => ({
       ...prev,
       answers: { ...prev.answers, [currentQuestion.id]: answer },
-      score: isCorrect ? prev.score + 1 : prev.score,
-      currentQuestionIndex: isLastQuestion ? prev.currentQuestionIndex : prev.currentQuestionIndex + 1,
-      showResults: isLastQuestion,
+      score: isNewAnswer && isCorrect ? prev.score + 1 : prev.score,
+      showResults: isLastQuestion && Object.keys(prev.answers).length === questions.length - 1,
     }));
   };
 
@@ -52,7 +53,7 @@ export function Quiz() {
     setState(prev => ({
       ...prev,
       currentQuestionIndex: isLastQuestion ? prev.currentQuestionIndex : prev.currentQuestionIndex + 1,
-      showResults: isLastQuestion,
+      showResults: isLastQuestion && Object.keys(prev.answers).length === questions.length - 1,
     }));
   };
 
@@ -126,6 +127,8 @@ export function Quiz() {
     );
   }
 
+  const userAnswer = state.answers[currentQuestion.id];
+
   return (
     <div className="w-full max-w-3xl mx-auto p-8 bg-gray-800/40 backdrop-blur-lg rounded-xl shadow-lg transition-all duration-300">
       <div className="mb-8">
@@ -151,24 +154,46 @@ export function Quiz() {
       
       <div className="space-y-3">
         {Array.isArray(currentQuestion.options) 
-          ? currentQuestion.options.map((option, index) => (
-            <button
-              key={index}
-              onClick={() => handleAnswer(index)}
-              className="w-full p-4 text-left bg-gray-700/40 hover:bg-gray-600/40 rounded-lg text-white transition-all duration-300"
-            >
-              {option}
-            </button>
-          ))
-          : Object.entries(currentQuestion.options).map(([key, value]) => (
-            <button
-              key={key}
-              onClick={() => handleAnswer(key)}
-              className="w-full p-4 text-left bg-gray-700/40 hover:bg-gray-600/40 rounded-lg text-white transition-all duration-300"
-            >
-              {value}
-            </button>
-          ))
+          ? currentQuestion.options.map((option, index) => {
+              const isSelected = userAnswer === index;
+              const isCorrect = userAnswer !== undefined && index === currentQuestion.correctAnswer;
+              
+              return (
+                <button
+                  key={index}
+                  onClick={() => handleAnswer(index)}
+                  className={`w-full p-4 text-left rounded-lg text-white transition-all duration-300 ${
+                    isSelected
+                      ? isCorrect
+                        ? 'bg-teal-600/40 hover:bg-teal-600/50'
+                        : 'bg-red-600/40 hover:bg-red-600/50'
+                      : 'bg-gray-700/40 hover:bg-gray-600/40'
+                  }`}
+                >
+                  {option}
+                </button>
+              );
+            })
+          : Object.entries(currentQuestion.options).map(([key, value]) => {
+              const isSelected = userAnswer === key;
+              const isCorrect = userAnswer !== undefined && key === currentQuestion.correctAnswer;
+              
+              return (
+                <button
+                  key={key}
+                  onClick={() => handleAnswer(key)}
+                  className={`w-full p-4 text-left rounded-lg text-white transition-all duration-300 ${
+                    isSelected
+                      ? isCorrect
+                        ? 'bg-teal-600/40 hover:bg-teal-600/50'
+                        : 'bg-red-600/40 hover:bg-red-600/50'
+                      : 'bg-gray-700/40 hover:bg-gray-600/40'
+                  }`}
+                >
+                  {value}
+                </button>
+              );
+            })
         }
       </div>
 
