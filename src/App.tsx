@@ -2,6 +2,27 @@ import { useState } from 'react';
 import { Moon, Sun } from 'lucide-react';
 import { Quiz } from './components/Quiz';
 
+
+const Footer = () => {
+  return (
+    <footer className="w-full text-white text-center py-4 italic mt-auto bg-transparent">
+      <p className="text-sm">
+        Made with <span className="text-red-500">❤</span> by{" "}
+        <a
+          href="https://github.com/AHzizi"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-gray-300"
+        >
+          Miftakul Azizi
+        </a>{" "}
+        &copy; 2025
+      </p>
+    </footer>
+  );
+};
+
+
 function App() {
   const [isDark, setIsDark] = useState(true);
 
@@ -36,6 +57,8 @@ function App() {
         </div>
         <Quiz />
       </div>
+      
+      <Footer />
     </div>
   );
 }
