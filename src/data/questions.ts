@@ -886,6 +886,4 @@ export const questions: Question[] = [
     "explanation": "Bupati/Walikota memiliki waktu 30 hari untuk menyelesaikan perselisihan hasil pemilihan sesuai Pasal 37 ayat (6)."
   }
   
-  
-  
 ].map(transformQuestion);
