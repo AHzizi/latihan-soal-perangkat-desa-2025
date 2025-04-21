@@ -536,354 +536,354 @@ export const questions: Question[] = [
     explanation: ""
   },
   {
-    "id": 56,
-    "question": "Berapa masa jabatan kepala desa setelah perubahan Undang-Undang Nomor 3 Tahun 2024?",
-    "options": ["4 tahun", "8 tahun", "10 tahun", "12 tahun"],
-    "correctAnswer": 1,
-    "explanation": "Setelah perubahan Undang-Undang, masa jabatan kepala desa menjadi 8 tahun."
+    id: 56,
+    question: "Berapa masa jabatan kepala desa setelah perubahan Undang-Undang Nomor 3 Tahun 2024?",
+    options: ["4 tahun", "8 tahun", "10 tahun", "12 tahun"],
+    correctAnswer: 1,
+    explanation: "Setelah perubahan Undang-Undang, masa jabatan kepala desa menjadi 8 tahun."
   },
   {
-    "id": 57,
-    "question": "Berapa periode maksimal kepala desa dapat dipilih kembali setelah perubahan undang-undang?",
-    "options": ["1 periode", "2 periode", "3 periode", "4 periode"],
-    "correctAnswer": 1,
-    "explanation": "Kepala desa dapat dipilih kembali maksimal 2 periode setelah perubahan undang-undang."
+    id: 57,
+    question: "Berapa periode maksimal kepala desa dapat dipilih kembali setelah perubahan undang-undang?",
+    options: ["1 periode", "2 periode", "3 periode", "4 periode"],
+    correctAnswer: 1,
+    explanation: "Kepala desa dapat dipilih kembali maksimal 2 periode setelah perubahan undang-undang."
   },
   {
-    "id": 58,
-    "question": "Alokasi Dana Desa setelah perubahan UU Desa harus minimal berapa persen dari total transfer ke daerah?",
-    "options": ["5%", "8%", "10%", "15%"],
-    "correctAnswer": 2,
-    "explanation": "Alokasi Dana Desa minimal 10% dari total transfer ke daerah sesuai dengan perubahan Undang-Undang."
+    id: 58,
+    question: "Alokasi Dana Desa setelah perubahan UU Desa harus minimal berapa persen dari total transfer ke daerah?",
+    options: ["5%", "8%", "10%", "15%"],
+    correctAnswer: 2,
+    explanation: "Alokasi Dana Desa minimal 10% dari total transfer ke daerah sesuai dengan perubahan Undang-Undang."
   },
   {
-    "id": 59,
-    "question": "Apa yang dapat dilakukan Desa berdasarkan kewenangan yang lebih luas sesuai dengan UU Desa yang baru?",
-    "options": ["Mengelola sumber daya alam", "Mengelola bandara", "Mengelola pertambangan", "Mengelola perusahaan swasta"],
-    "correctAnswer": 0,
-    "explanation": "Desa dapat mengelola sumber daya alam berdasarkan kewenangan yang lebih luas dalam Undang-Undang baru."
+    id: 59,
+    question: "Apa yang dapat dilakukan Desa berdasarkan kewenangan yang lebih luas sesuai dengan UU Desa yang baru?",
+    options: ["Mengelola sumber daya alam", "Mengelola bandara", "Mengelola pertambangan", "Mengelola perusahaan swasta"],
+    correctAnswer: 0,
+    explanation: "Desa dapat mengelola sumber daya alam berdasarkan kewenangan yang lebih luas dalam Undang-Undang baru."
   },
   {
-    "id": 60,
-    "question": "Apa status perangkat desa setelah perubahan UU Desa menjadi berdasarkan pegawai pemerintah dengan perjanjian kerja (PPPK)?",
-    "options": ["Pegawai PNS", "Pegawai BUMN", "Pegawai Swasta", "Pegawai PPPK"],
-    "correctAnswer": 3,
-    "explanation": "Status perangkat desa berubah menjadi pegawai pemerintah dengan perjanjian kerja (PPPK) setelah perubahan Undang-Undang."
+    id: 60,
+    question: "Apa status perangkat desa setelah perubahan UU Desa menjadi berdasarkan pegawai pemerintah dengan perjanjian kerja (PPPK)?",
+    options: ["Pegawai PNS", "Pegawai BUMN", "Pegawai Swasta", "Pegawai PPPK"],
+    correctAnswer: 3,
+    explanation: "Status perangkat desa berubah menjadi pegawai pemerintah dengan perjanjian kerja (PPPK) setelah perubahan Undang-Undang."
   },
   {
-    "id": 61,
-    "question": "Peningkatan kelembagaan desa bertujuan untuk meningkatkan apa?",
-    "options": ["Partisipasi masyarakat dalam pembangunan desa", "Pengaruh pemerintah pusat", "Otonomi daerah", "Peran tentara dalam desa"],
-    "correctAnswer": 0,
-    "explanation": "Peningkatan kelembagaan desa bertujuan untuk meningkatkan partisipasi masyarakat dalam pembangunan desa."
+    id: 61,
+    question: "Peningkatan kelembagaan desa bertujuan untuk meningkatkan apa?",
+    options: ["Partisipasi masyarakat dalam pembangunan desa", "Pengaruh pemerintah pusat", "Otonomi daerah", "Peran tentara dalam desa"],
+    correctAnswer: 0,
+    explanation: "Peningkatan kelembagaan desa bertujuan untuk meningkatkan partisipasi masyarakat dalam pembangunan desa."
   },
   {
-    "id": 62,
-    "question": "Apa yang diatur dalam UU Desa baru mengenai penguatan peran perempuan dalam pembangunan desa?",
-    "options": ["Pemberian beasiswa", "Pelarangan bekerja", "Pengecualian dalam pemilihan kepala desa", "Peningkatan peran"],
-    "correctAnswer": 3,
-    "explanation": "UU Desa baru mengatur penguatan peran perempuan dalam pembangunan desa dengan tujuan meningkatkan peran mereka."
+    id: 62,
+    question: "Apa yang diatur dalam UU Desa baru mengenai penguatan peran perempuan dalam pembangunan desa?",
+    options: ["Pemberian beasiswa", "Pelarangan bekerja", "Pengecualian dalam pemilihan kepala desa", "Peningkatan peran"],
+    correctAnswer: 3,
+    explanation: "UU Desa baru mengatur penguatan peran perempuan dalam pembangunan desa dengan tujuan meningkatkan peran mereka."
   },
   {
-    "id": 63,
-    "question": "Apa yang dilakukan Badan Usaha Milik Desa (BUMDes) untuk meningkatkan perekonomian desa?",
-    "options": ["Menyulap uang", "Menjalankan bisnis", "Meminjam uang", "Menabung dana desa"],
-    "correctAnswer": 1,
-    "explanation": "BUMDes menjalankan bisnis untuk meningkatkan perekonomian desa sesuai dengan peraturan UU Desa."
+    id: 63,
+    question: "Apa yang dilakukan Badan Usaha Milik Desa (BUMDes) untuk meningkatkan perekonomian desa?",
+    options: ["Menyulap uang", "Menjalankan bisnis", "Meminjam uang", "Menabung dana desa"],
+    correctAnswer: 1,
+    explanation: "BUMDes menjalankan bisnis untuk meningkatkan perekonomian desa sesuai dengan peraturan UU Desa."
   },
   {
-    "id": 64,
-    "question": "Berdasarkan UU Desa baru, siapakah yang memiliki kewenangan untuk membentuk Badan Usaha Milik Desa (BUMDes)?",
-    "options": ["Pemerintah Pusat", "Pemerintah Provinsi", "Kepala Desa", "Masyarakat Desa"],
-    "correctAnswer": 3,
-    "explanation": "Masyarakat desa memiliki kewenangan untuk membentuk BUMDes berdasarkan UU Desa baru."
+    id: 64,
+    question: "Berdasarkan UU Desa baru, siapakah yang memiliki kewenangan untuk membentuk Badan Usaha Milik Desa (BUMDes)?",
+    options: ["Pemerintah Pusat", "Pemerintah Provinsi", "Kepala Desa", "Masyarakat Desa"],
+    correctAnswer: 3,
+    explanation: "Masyarakat desa memiliki kewenangan untuk membentuk BUMDes berdasarkan UU Desa baru."
   },
   {
-    "id": 65,
-    "question": "Apa yang diatur dalam UU Desa baru mengenai peningkatan kesejahteraan kepala desa dan perangkat desa?",
-    "options": ["Asuransi kesehatan", "Tunjangan pensiun", "Peningkatan gaji", "Izin libur tambahan"],
-    "correctAnswer": 2,
-    "explanation": "UU Desa baru mengatur peningkatan gaji untuk meningkatkan kesejahteraan kepala desa dan perangkat desa."
+    id: 65,
+    question: "Apa yang diatur dalam UU Desa baru mengenai peningkatan kesejahteraan kepala desa dan perangkat desa?",
+    options: ["Asuransi kesehatan", "Tunjangan pensiun", "Peningkatan gaji", "Izin libur tambahan"],
+    correctAnswer: 2,
+    explanation: "UU Desa baru mengatur peningkatan gaji untuk meningkatkan kesejahteraan kepala desa dan perangkat desa."
   },
   {
-    "id": 66,
-    "question": "Apa peran Perangkat Desa menurut Pasal 48?",
-    "options": ["Mendukung Gubernur", "Membantu Walikota", "Membantu Kepala Desa", "Memberi nasihat kepada Menteri"],
-    "correctAnswer": 2,
-    "explanation": "Peran Perangkat Desa adalah untuk membantu Kepala Desa dalam melaksanakan tugas dan wewenangnya."
+    id: 66,
+    question: "Apa peran Perangkat Desa menurut Pasal 48?",
+    options: ["Mendukung Gubernur", "Membantu Walikota", "Membantu Kepala Desa", "Memberi nasihat kepada Menteri"],
+    correctAnswer: 2,
+    explanation: "Peran Perangkat Desa adalah untuk membantu Kepala Desa dalam melaksanakan tugas dan wewenangnya."
   },
   {
-    "id": 67,
-    "question": "Bagaimana Perangkat Desa diangkat menurut Pasal 49?",
-    "options": ["Oleh Presiden", "Setelah berkonsultasi dengan Camat", "Melalui pemilihan umum", "Secara acak dipilih"],
-    "correctAnswer": 1,
-    "explanation": "Perangkat Desa diangkat oleh Kepala Desa setelah berkonsultasi dengan Camat atas nama Bupati/Walikota."
+    id: 67,
+    question: "Bagaimana Perangkat Desa diangkat menurut Pasal 49?",
+    options: ["Oleh Presiden", "Setelah berkonsultasi dengan Camat", "Melalui pemilihan umum", "Secara acak dipilih"],
+    correctAnswer: 1,
+    explanation: "Perangkat Desa diangkat oleh Kepala Desa setelah berkonsultasi dengan Camat atas nama Bupati/Walikota."
   },
   {
-    "id": 68,
-    "question": "Apa syarat kualifikasi Perangkat Desa sesuai Pasal 50?",
-    "options": ["Harus memiliki keyakinan agama tertentu", "Persyaratan pendidikan minimum", "Rentang usia", "Harus menjadi pemilik tanah"],
-    "correctAnswer": 2,
-    "explanation": "Kualifikasi Perangkat Desa termasuk rentang usia 20-42 tahun."
+    id: 68,
+    question: "Apa syarat kualifikasi Perangkat Desa sesuai Pasal 50?",
+    options: ["Harus memiliki keyakinan agama tertentu", "Persyaratan pendidikan minimum", "Rentang usia", "Harus menjadi pemilik tanah"],
+    correctAnswer: 2,
+    explanation: "Kualifikasi Perangkat Desa termasuk rentang usia 20-42 tahun."
   },
   {
-    "id": 69,
-    "question": "Apa hak yang dimiliki oleh Perangkat Desa menurut Pasal 50A?",
-    "options": ["Tidak ada penghasilan tetap", "Tidak ada manfaat kesejahteraan sosial", "Manfaat pensiun", "Penghasilan bulanan dan manfaat jaminan sosial"],
-    "correctAnswer": 3,
-    "explanation": "Perangkat Desa memiliki hak untuk menerima penghasilan tetap, tunjangan, dan jaminan sosial."
+    id: 69,
+    question: "Apa hak yang dimiliki oleh Perangkat Desa menurut Pasal 50A?",
+    options: ["Tidak ada penghasilan tetap", "Tidak ada manfaat kesejahteraan sosial", "Manfaat pensiun", "Penghasilan bulanan dan manfaat jaminan sosial"],
+    correctAnswer: 3,
+    explanation: "Perangkat Desa memiliki hak untuk menerima penghasilan tetap, tunjangan, dan jaminan sosial."
   },
   {
-    "id": 70,
-    "question": "Kepada siapa Perangkat Desa melaporkan tugas mereka?",
-    "options": ["Kepala Desa", "Presiden", "Camat", "Jaksa Distrik"],
-    "correctAnswer": 0,
-    "explanation": "Perangkat Desa bertanggung jawab kepada Kepala Desa."
+    id: 70,
+    question: "Kepada siapa Perangkat Desa melaporkan tugas mereka?",
+    options: ["Kepala Desa", "Presiden", "Camat", "Jaksa Distrik"],
+    correctAnswer: 0,
+    explanation: "Perangkat Desa bertanggung jawab kepada Kepala Desa."
+  },  
+  {
+    id: 71,
+    question: "Bagaimana Perangkat Desa dipilih berdasarkan Pasal 50?",
+    options: ["Undian", "Penunjukan langsung oleh Gubernur", "Setelah memenuhi kriteria tertentu", "Melalui pemungutan suara publik"],
+    correctAnswer: 2,
+    explanation: "Perangkat Desa dipilih dari warga Desa yang memenuhi kriteria tertentu."
   },
   {
-    "id": 71,
-    "question": "Bagaimana Perangkat Desa dipilih berdasarkan Pasal 50?",
-    "options": ["Undian", "Penunjukan langsung oleh Gubernur", "Setelah memenuhi kriteria tertentu", "Melalui pemungutan suara publik"],
-    "correctAnswer": 2,
-    "explanation": "Perangkat Desa dipilih dari warga Desa yang memenuhi kriteria tertentu."
+    id: 72,
+    question: "Apa rentang usia yang diperlukan untuk Perangkat Desa?",
+    options: ["18-30 tahun", "25-40 tahun", "20-42 tahun", "30-50 tahun"],
+    correctAnswer: 2,
+    explanation: "Rentang usia yang diperlukan untuk menjadi Perangkat Desa adalah 20-42 tahun."
   },
   {
-    "id": 72,
-    "question": "Apa rentang usia yang diperlukan untuk Perangkat Desa?",
-    "options": ["18-30 tahun", "25-40 tahun", "20-42 tahun", "30-50 tahun"],
-    "correctAnswer": 2,
-    "explanation": "Rentang usia yang diperlukan untuk menjadi Perangkat Desa adalah 20-42 tahun."
+    id: 73,
+    question: "Siapakah yang tidak dapat menjadi calon anggota Badan Permusyawaratan Desa?",
+    options: ["Pegawai Negeri", "Perangkat Desa", "Petani", "Pedagang"],
+    correctAnswer: 1,
+    explanation: "Perangkat Desa tidak dapat menjadi calon anggota BPD karena berpotensi menimbulkan konflik kepentingan."
   },
   {
-    "id": 73,
-    "question": "Siapakah yang tidak dapat menjadi calon anggota Badan Permusyawaratan Desa?",
-    "options": ["Pegawai Negeri", "Perangkat Desa", "Petani", "Pedagang"],
-    "correctAnswer": 1,
-    "explanation": "Perangkat Desa tidak dapat menjadi calon anggota BPD karena berpotensi menimbulkan konflik kepentingan."
+    id: 74,
+    question: "Manfaat apa yang diterima oleh Perangkat Desa sesuai Pasal 50A?",
+    options: ["Hanya penghasilan bulanan", "Tidak ada manfaat", "Penghasilan bulanan, kesejahteraan sosial, dan penerimaan lainnya yang sah", "Bonus tidak teratur"],
+    correctAnswer: 2,
+    explanation: "Perangkat Desa menerima penghasilan tetap, kesejahteraan sosial, dan penerimaan lainnya yang sah."
   },
   {
-    "id": 74,
-    "question": "Manfaat apa yang diterima oleh Perangkat Desa sesuai Pasal 50A?",
-    "options": ["Hanya penghasilan bulanan", "Tidak ada manfaat", "Penghasilan bulanan, kesejahteraan sosial, dan penerimaan lainnya yang sah", "Bonus tidak teratur"],
-    "correctAnswer": 2,
-    "explanation": "Perangkat Desa menerima penghasilan tetap, kesejahteraan sosial, dan penerimaan lainnya yang sah."
+    id: 75,
+    question: "Apa tujuan Perangkat Desa seperti yang disebutkan dalam teks?",
+    options: ["Membantu Menteri", "Mendukung polisi daerah", "Membantu Kepala Desa", "Mengawasi urusan internasional"],
+    correctAnswer: 2,
+    explanation: "Tujuan utama Perangkat Desa adalah membantu Kepala Desa menjalankan tugas dan kebijakan."
   },
   {
-    "id": 75,
-    "question": "Apa tujuan Perangkat Desa seperti yang disebutkan dalam teks?",
-    "options": ["Membantu Menteri", "Mendukung polisi daerah", "Membantu Kepala Desa", "Mengawasi urusan internasional"],
-    "correctAnswer": 2,
-    "explanation": "Tujuan utama Perangkat Desa adalah membantu Kepala Desa menjalankan tugas dan kebijakan."
+    id: 76,
+    question: "Siapa yang bertanggung jawab atas Perangkat Desa dalam tugas mereka?",
+    options: ["Menteri", "Camat", "Kepala Desa", "Mereka sendiri"],
+    correctAnswer: 2,
+    explanation: "Perangkat Desa bertanggung jawab langsung kepada Kepala Desa."
   },
   {
-    "id": 76,
-    "question": "Siapa yang bertanggung jawab atas Perangkat Desa dalam tugas mereka?",
-    "options": ["Menteri", "Camat", "Kepala Desa", "Mereka sendiri"],
-    "correctAnswer": 2,
-    "explanation": "Perangkat Desa bertanggung jawab langsung kepada Kepala Desa."
+    id: 77,
+    question: "Kualifikasi pendidikan minimum apa yang diperlukan untuk Perangkat Desa?",
+    options: ["Gelar sarjana", "Pendidikan sekolah menengah", "Tidak ada tingkat pendidikan tertentu", "Gelar master"],
+    correctAnswer: 1,
+    explanation: "Syarat pendidikan minimal adalah lulus sekolah menengah umum atau sederajat."
   },
   {
-    "id": 77,
-    "question": "Kualifikasi pendidikan minimum apa yang diperlukan untuk Perangkat Desa?",
-    "options": ["Gelar sarjana", "Pendidikan sekolah menengah", "Tidak ada tingkat pendidikan tertentu", "Gelar master"],
-    "correctAnswer": 1,
-    "explanation": "Syarat pendidikan minimal adalah lulus sekolah menengah umum atau sederajat."
+    id: 78,
+    question: "Badan mana yang menyetujui penunjukan Perangkat Desa sesuai Pasal 49?",
+    options: ["Kantor polisi setempat", "Sekretaris Distrik", "Camat atas nama Bupati/Walikota", "Dewan Desa"],
+    correctAnswer: 2,
+    explanation: "Penunjukan dilakukan oleh Kepala Desa dengan persetujuan Camat atas nama Bupati/Walikota."
   },
   {
-    "id": 78,
-    "question": "Badan mana yang menyetujui penunjukan Perangkat Desa sesuai Pasal 49?",
-    "options": ["Kantor polisi setempat", "Sekretaris Distrik", "Camat atas nama Bupati/Walikota", "Dewan Desa"],
-    "correctAnswer": 2,
-    "explanation": "Penunjukan dilakukan oleh Kepala Desa dengan persetujuan Camat atas nama Bupati/Walikota."
+    id: 79,
+    question: "Berapa bagian yang terdiri dari Perangkat Desa menurut Pasal 48?",
+    options: ["Tiga", "Empat", "Lima", "Enam"],
+    correctAnswer: 0,
+    explanation: "Perangkat Desa terdiri dari tiga unsur: sekretariat, pelaksana kewilayahan, dan pelaksana teknis."
   },
   {
-    "id": 79,
-    "question": "Berapa bagian yang terdiri dari Perangkat Desa menurut Pasal 48?",
-    "options": ["Tiga", "Empat", "Lima", "Enam"],
-    "correctAnswer": 0,
-    "explanation": "Perangkat Desa terdiri dari tiga unsur: sekretariat, pelaksana kewilayahan, dan pelaksana teknis."
+    id: 80,
+    question: "Apa yang dipastikan oleh Perangkat Desa dalam pelaksanaan?",
+    options: ["Kebijakan nasional", "Perjanjian internasional", "Kebijakan Desa", "Undang-undang negara"],
+    correctAnswer: 2,
+    explanation: "Perangkat Desa memastikan pelaksanaan kebijakan Desa berjalan dengan baik."
   },
   {
-    "id": 80,
-    "question": "Apa yang dipastikan oleh Perangkat Desa dalam pelaksanaan?",
-    "options": ["Kebijakan nasional", "Perjanjian internasional", "Kebijakan Desa", "Undang-undang negara"],
-    "correctAnswer": 2,
-    "explanation": "Perangkat Desa memastikan pelaksanaan kebijakan Desa berjalan dengan baik."
+    id: 81,
+    question: "Berapa batas usia individu untuk diangkat sebagai Perangkat Desa?",
+    options: ["18-35 tahun", "20-42 tahun", "30-50 tahun", "25-40 tahun"],
+    correctAnswer: 1,
+    explanation: "Batas usia yang ditetapkan adalah 20 hingga 42 tahun."
   },
   {
-    "id": 81,
-    "question": "Berapa batas usia individu untuk diangkat sebagai Perangkat Desa?",
-    "options": ["18-35 tahun", "20-42 tahun", "30-50 tahun", "25-40 tahun"],
-    "correctAnswer": 1,
-    "explanation": "Batas usia yang ditetapkan adalah 20 hingga 42 tahun."
+    id: 82,
+    question: "Dalam kapasitas apa Perangkat Desa membantu Kepala Desa?",
+    options: ["Tugas administratif dan teknis", "Manajemen keuangan saja", "Manajemen media sosial", "Masalah hukum"],
+    correctAnswer: 0,
+    explanation: "Perangkat Desa membantu dalam tugas administratif dan teknis."
   },
   {
-    "id": 82,
-    "question": "Dalam kapasitas apa Perangkat Desa membantu Kepala Desa?",
-    "options": ["Tugas administratif dan teknis", "Manajemen keuangan saja", "Manajemen media sosial", "Masalah hukum"],
-    "correctAnswer": 0,
-    "explanation": "Perangkat Desa membantu dalam tugas administratif dan teknis."
+    id: 83,
+    question: "Apa syarat pendidikan minimal yang diperlukan untuk menjadi anggota Badan Permusyawaratan Desa?",
+    options: ["SD", "SMP", "SMA", "S1"],
+    correctAnswer: 1,
+    explanation: "Syarat minimal pendidikan untuk menjadi anggota BPD adalah tamat SMP atau sederajat."
   },
   {
-    "id": 83,
-    "question": "Apa syarat pendidikan minimal yang diperlukan untuk menjadi anggota Badan Permusyawaratan Desa?",
-    "options": ["SD", "SMP", "SMA", "S1"],
-    "correctAnswer": 1,
-    "explanation": "Syarat minimal pendidikan untuk menjadi anggota BPD adalah tamat SMP atau sederajat."
+    id: 84,
+    question: "Apa tanggung jawab utama Perangkat Desa?",
+    options: ["Menangani hubungan internasional", "Membantu Gubernur", "Mendukung Kepala Desa", "Konservasi lingkungan"],
+    correctAnswer: 2,
+    explanation: "Perangkat Desa bertugas mendukung Kepala Desa dalam pelaksanaan kebijakan dan administrasi."
   },
   {
-    "id": 84,
-    "question": "Apa tanggung jawab utama Perangkat Desa?",
-    "options": ["Menangani hubungan internasional", "Membantu Gubernur", "Mendukung Kepala Desa", "Konservasi lingkungan"],
-    "correctAnswer": 2,
-    "explanation": "Perangkat Desa bertugas mendukung Kepala Desa dalam pelaksanaan kebijakan dan administrasi."
+    id: 85,
+    question: "Berapa umur minimal seseorang untuk menjadi calon anggota Badan Permusyawaratan Desa?",
+    options: ["16 tahun", "18 tahun", "20 tahun", "22 tahun"],
+    correctAnswer: 2,
+    explanation: "Umur minimal untuk menjadi calon anggota BPD adalah 20 tahun."
   },
   {
-    "id": 85,
-    "question": "Berapa umur minimal seseorang untuk menjadi calon anggota Badan Permusyawaratan Desa?",
-    "options": ["16 tahun", "18 tahun", "20 tahun", "22 tahun"],
-    "correctAnswer": 2,
-    "explanation": "Umur minimal untuk menjadi calon anggota BPD adalah 20 tahun."
+    id: 86,
+    question: "Siapa yang menetapkan bakal calon Kepala Desa?",
+    options: ["Masyarakat Desa", "Panitia pemilihan Kepala Desa", "Badan Permusyawaratan Desa", "Bupati/Walikota"],
+    correctAnswer: 1,
+    explanation: "Panitia pemilihan Kepala Desa yang menetapkan bakal calon Kepala Desa berdasarkan Pasal 36 ayat (1)."
   },
   {
-    "id": 86,
-    "question": "Siapa yang menetapkan bakal calon Kepala Desa?",
-    "options": ["Masyarakat Desa", "Panitia pemilihan Kepala Desa", "Badan Permusyawaratan Desa", "Bupati/Walikota"],
-    "correctAnswer": 1,
-    "explanation": "Panitia pemilihan Kepala Desa yang menetapkan bakal calon Kepala Desa berdasarkan Pasal 36 ayat (1)."
+    id: 87,
+    question: "Bagaimana cara calon Kepala Desa diumumkan kepada masyarakat Desa?",
+    options: ["Di media sosial", "Di sekolah Desa", "Di tempat umum sesuai kondisi sosial budaya", "Di kantor Kepala Desa"],
+    correctAnswer: 2,
+    explanation: "Calon Kepala Desa diumumkan kepada masyarakat Desa di tempat umum sesuai dengan kondisi sosial budaya masyarakat Desa berdasarkan Pasal 36 ayat (2)."
   },
   {
-    "id": 87,
-    "question": "Bagaimana cara calon Kepala Desa diumumkan kepada masyarakat Desa?",
-    "options": ["Di media sosial", "Di sekolah Desa", "Di tempat umum sesuai kondisi sosial budaya", "Di kantor Kepala Desa"],
-    "correctAnswer": 2,
-    "explanation": "Calon Kepala Desa diumumkan kepada masyarakat Desa di tempat umum sesuai dengan kondisi sosial budaya masyarakat Desa berdasarkan Pasal 36 ayat (2)."
+    id: 88,
+    question: "Apa yang harus dipenuhi oleh Calon Kepala Desa untuk melakukan kampanye?",
+    options: ["Kebutuhan pribadi", "Syarat perundang-undangan", "Persetujuan tetangga", "Kondisi cuaca"],
+    correctAnswer: 1,
+    explanation: "Calon Kepala Desa harus memenuhi syarat perundang-undangan untuk melakukan kampanye berdasarkan Pasal 36 ayat (3)."
   },
   {
-    "id": 88,
-    "question": "Apa yang harus dipenuhi oleh Calon Kepala Desa untuk melakukan kampanye?",
-    "options": ["Kebutuhan pribadi", "Syarat perundang-undangan", "Persetujuan tetangga", "Kondisi cuaca"],
-    "correctAnswer": 1,
-    "explanation": "Calon Kepala Desa harus memenuhi syarat perundang-undangan untuk melakukan kampanye berdasarkan Pasal 36 ayat (3)."
+    id: 89,
+    question: "Berapa lama Badan Permusyawaratan Desa memiliki waktu untuk menyampaikan nama calon Kepala Desa terpilih kepada Bupati/Walikota?",
+    options: ["3 hari", "7 hari", "14 hari", "30 hari"],
+    correctAnswer: 1,
+    explanation: "Badan Permusyawaratan Desa memiliki waktu paling lama 7 hari untuk menyampaikan nama calon Kepala Desa terpilih kepada Bupati/Walikota berdasarkan Pasal 37 ayat (4)."
   },
   {
-    "id": 89,
-    "question": "Berapa lama Badan Permusyawaratan Desa memiliki waktu untuk menyampaikan nama calon Kepala Desa terpilih kepada Bupati/Walikota?",
-    "options": ["3 hari", "7 hari", "14 hari", "30 hari"],
-    "correctAnswer": 1,
-    "explanation": "Badan Permusyawaratan Desa memiliki waktu paling lama 7 hari untuk menyampaikan nama calon Kepala Desa terpilih kepada Bupati/Walikota berdasarkan Pasal 37 ayat (4)."
+    id: 90,
+    question: "Siapa yang mengesahkan calon Kepala Desa terpilih menjadi Kepala Desa?",
+    options: ["Masyarakat Desa", "Panitia pemilihan", "Badan Permusyawaratan Desa", "Bupati/Walikota"],
+    correctAnswer: 3,
+    explanation: "Bupati/Walikota yang mengesahkan calon Kepala Desa terpilih menjadi Kepala Desa berdasarkan Pasal 37 ayat (5)."
   },
   {
-    "id": 90,
-    "question": "Siapa yang mengesahkan calon Kepala Desa terpilih menjadi Kepala Desa?",
-    "options": ["Masyarakat Desa", "Panitia pemilihan", "Badan Permusyawaratan Desa", "Bupati/Walikota"],
-    "correctAnswer": 3,
-    "explanation": "Bupati/Walikota yang mengesahkan calon Kepala Desa terpilih menjadi Kepala Desa berdasarkan Pasal 37 ayat (5)."
+    id: 91,
+    question: "Apa yang harus dilakukan Bupati/Walikota dalam hal terjadi perselisihan hasil pemilihan Kepala Desa?",
+    options: ["Memberikan hadiah kepada calon Kepala Desa", "Menyelesaikan perselisihan", "Memilih calon Kepala Desa baru", "Menyuruh panitia pemilihan mengadakan pemilihan ulang"],
+    correctAnswer: 1,
+    explanation: "Sesuai dengan Pasal 37 ayat (6), Bupati/Walikota memiliki kewajiban untuk menyelesaikan perselisihan hasil pemilihan Kepala Desa dalam jangka waktu yang ditentukan."
   },
   {
-    "id": 91,
-    "question": "Apa yang harus dilakukan Bupati/Walikota dalam hal terjadi perselisihan hasil pemilihan Kepala Desa?",
-    "options": ["Memberikan hadiah kepada calon Kepala Desa", "Menyelesaikan perselisihan", "Memilih calon Kepala Desa baru", "Menyuruh panitia pemilihan mengadakan pemilihan ulang"],
-    "correctAnswer": 1,
-    "explanation": "Sesuai dengan Pasal 37 ayat (6), Bupati/Walikota memiliki kewajiban untuk menyelesaikan perselisihan hasil pemilihan Kepala Desa dalam jangka waktu yang ditentukan."
+    id: 92,
+    question: "Kapan calon Kepala Desa terpilih dilantik?",
+    options: ["10 hari setelah keputusan Bupati/Walikota", "Paling lama 30 hari setelah keputusan Bupati/Walikota", "Paling lama 60 hari setelah keputusan Bupati/Walikota", "Tidak dijelaskan dalam Pasal 38"],
+    correctAnswer: 1,
+    explanation: "Menurut Pasal 38 ayat (1), calon Kepala Desa terpilih dilantik paling lama 30 hari setelah penerbitan keputusan."
   },
   {
-    "id": 92,
-    "question": "Kapan calon Kepala Desa terpilih dilantik?",
-    "options": ["10 hari setelah keputusan Bupati/Walikota", "Paling lama 30 hari setelah keputusan Bupati/Walikota", "Paling lama 60 hari setelah keputusan Bupati/Walikota", "Tidak dijelaskan dalam Pasal 38"],
-    "correctAnswer": 1,
-    "explanation": "Menurut Pasal 38 ayat (1), calon Kepala Desa terpilih dilantik paling lama 30 hari setelah penerbitan keputusan."
+    id: 93,
+    question: "Apakah Kepala Desa terpilih harus bersumpah sebelum memangku jabatannya?",
+    options: ["Ya", "Tidak", "Hanya jika diinginkan", "Opsional"],
+    correctAnswer: 0,
+    explanation: "Sesuai Pasal 38 ayat (2), Kepala Desa terpilih harus bersumpah/berjanji sebelum memangku jabatannya."
   },
   {
-    "id": 93,
-    "question": "Apakah Kepala Desa terpilih harus bersumpah sebelum memangku jabatannya?",
-    "options": ["Ya", "Tidak", "Hanya jika diinginkan", "Opsional"],
-    "correctAnswer": 0,
-    "explanation": "Sesuai Pasal 38 ayat (2), Kepala Desa terpilih harus bersumpah/berjanji sebelum memangku jabatannya."
+    id: 94,
+    question: "Siapa yang menentukan calon Kepala Desa terpilih?",
+    options: ["Badan Permusyawaratan Desa", "Bupati/Walikota", "Panitia pemilihan Kepala Desa", "Masyarakat Desa"],
+    correctAnswer: 2,
+    explanation: "Panitia pemilihan Kepala Desa yang menetapkan calon terpilih berdasarkan hasil pemungutan suara."
   },
   {
-    "id": 94,
-    "question": "Siapa yang menentukan calon Kepala Desa terpilih?",
-    "options": ["Badan Permusyawaratan Desa", "Bupati/Walikota", "Panitia pemilihan Kepala Desa", "Masyarakat Desa"],
-    "correctAnswer": 2,
-    "explanation": "Panitia pemilihan Kepala Desa yang menetapkan calon terpilih berdasarkan hasil pemungutan suara."
+    id: 95,
+    question: "Apa yang harus dilakukan Badan Permusyawaratan Desa setelah menerima laporan panitia pemilihan?",
+    options: ["Melakukan penelitian lagi", "Menyampaikan nama calon Kepala Desa terpilih kepada masyarakat Desa", "Menyampaikan nama calon Kepala Desa terpilih kepada Bupati/Walikota", "Memilih Kepala Desa secara langsung"],
+    correctAnswer: 2,
+    explanation: "Badan Permusyawaratan Desa harus menyampaikan nama calon Kepala Desa terpilih kepada Bupati/Walikota sesuai Pasal 37 ayat (4)."
   },
   {
-    "id": 95,
-    "question": "Apa yang harus dilakukan Badan Permusyawaratan Desa setelah menerima laporan panitia pemilihan?",
-    "options": ["Melakukan penelitian lagi", "Menyampaikan nama calon Kepala Desa terpilih kepada masyarakat Desa", "Menyampaikan nama calon Kepala Desa terpilih kepada Bupati/Walikota", "Memilih Kepala Desa secara langsung"],
-    "correctAnswer": 2,
-    "explanation": "Badan Permusyawaratan Desa harus menyampaikan nama calon Kepala Desa terpilih kepada Bupati/Walikota sesuai Pasal 37 ayat (4)."
+    id: 96,
+    question: "Bagaimana calon Kepala Desa dapat memenangkan pemilihan?",
+    options: ["Dengan memperoleh suara terbanyak", "Dengan memberikan uang kepada pemilih", "Dengan memperoleh dukungan asing", "Tidak dijelaskan dalam Pasal 37"],
+    correctAnswer: 0,
+    explanation: "Calon Kepala Desa memenangkan pemilihan dengan memperoleh suara terbanyak menurut Pasal 37 ayat (1)."
   },
   {
-    "id": 96,
-    "question": "Bagaimana calon Kepala Desa dapat memenangkan pemilihan?",
-    "options": ["Dengan memperoleh suara terbanyak", "Dengan memberikan uang kepada pemilih", "Dengan memperoleh dukungan asing", "Tidak dijelaskan dalam Pasal 37"],
-    "correctAnswer": 0,
-    "explanation": "Calon Kepala Desa memenangkan pemilihan dengan memperoleh suara terbanyak menurut Pasal 37 ayat (1)."
+    id: 97,
+    question: "Apa yang harus dilakukan Bupati/Walikota 30 hari setelah menerima hasil pemilihan?",
+    options: ["Melarang pelantikan Kepala Desa", "Mengesahkan calon Kepala Desa terpilih menjadi Kepala Desa", "Menggelar pesta rakyat", "Menyampaikan laporan kepada masyarakat Desa"],
+    correctAnswer: 1,
+    explanation: "Bupati/Walikota harus mengesahkan calon Kepala Desa terpilih paling lama 30 hari setelah menerima hasil pemilihan (Pasal 37 ayat 5)."
   },
   {
-    "id": 97,
-    "question": "Apa yang harus dilakukan Bupati/Walikota 30 hari setelah menerima hasil pemilihan?",
-    "options": ["Melarang pelantikan Kepala Desa", "Mengesahkan calon Kepala Desa terpilih menjadi Kepala Desa", "Menggelar pesta rakyat", "Menyampaikan laporan kepada masyarakat Desa"],
-    "correctAnswer": 1,
-    "explanation": "Bupati/Walikota harus mengesahkan calon Kepala Desa terpilih paling lama 30 hari setelah menerima hasil pemilihan (Pasal 37 ayat 5)."
+    id: 98,
+    question: "Apa yang harus dilakukan Bupati/Walikota jika terjadi perselisihan hasil pemilihan?",
+    options: ["Menunda keputusan", "Menyelesaikan perselisihan dalam waktu yang ditentukan", "Menarik diri dari proses pemilihan", "Meminta bantuan kepada pihak berwenang"],
+    correctAnswer: 1,
+    explanation: "Jika terjadi perselisihan hasil pemilihan, Bupati/Walikota wajib menyelesaikannya sesuai Pasal 37 ayat (6)."
   },
   {
-    "id": 98,
-    "question": "Apa yang harus dilakukan Bupati/Walikota jika terjadi perselisihan hasil pemilihan?",
-    "options": ["Menunda keputusan", "Menyelesaikan perselisihan dalam waktu yang ditentukan", "Menarik diri dari proses pemilihan", "Meminta bantuan kepada pihak berwenang"],
-    "correctAnswer": 1,
-    "explanation": "Jika terjadi perselisihan hasil pemilihan, Bupati/Walikota wajib menyelesaikannya sesuai Pasal 37 ayat (6)."
+    id: 99,
+    question: "Apakah panitia pemilihan Kepala Desa memiliki kewajiban menetapkan calon Kepala Desa terpilih?",
+    options: ["Ya", "Tidak", "Hanya jika diminta", "Opsional"],
+    correctAnswer: 0,
+    explanation: "Panitia pemilihan wajib menetapkan calon Kepala Desa terpilih berdasarkan hasil pemungutan suara (Pasal 37 ayat 2)."
   },
   {
-    "id": 99,
-    "question": "Apakah panitia pemilihan Kepala Desa memiliki kewajiban menetapkan calon Kepala Desa terpilih?",
-    "options": ["Ya", "Tidak", "Hanya jika diminta", "Opsional"],
-    "correctAnswer": 0,
-    "explanation": "Panitia pemilihan wajib menetapkan calon Kepala Desa terpilih berdasarkan hasil pemungutan suara (Pasal 37 ayat 2)."
+    id: 100,
+    question: "Berapa waktu maksimal yang dimiliki Bupati/Walikota untuk mengesahkan calon Kepala Desa terpilih?",
+    options: ["14 hari", "30 hari", "60 hari", "90 hari"],
+    correctAnswer: 1,
+    explanation: "Bupati/Walikota memiliki waktu maksimal 30 hari untuk mengesahkan calon Kepala Desa terpilih (Pasal 37 ayat 5)."
   },
   {
-    "id": 100,
-    "question": "Berapa waktu maksimal yang dimiliki Bupati/Walikota untuk mengesahkan calon Kepala Desa terpilih?",
-    "options": ["14 hari", "30 hari", "60 hari", "90 hari"],
-    "correctAnswer": 1,
-    "explanation": "Bupati/Walikota memiliki waktu maksimal 30 hari untuk mengesahkan calon Kepala Desa terpilih (Pasal 37 ayat 5)."
+    id: 101,
+    question: "Apa yang harus dilakukan Calon Kepala Desa setelah ditetapkan sebagai calon Kepala Desa oleh panitia pemilihan?",
+    options: ["Melakukan umum di desa tetangga", "Mengajukan resign dari pekerjaan sebelumnya", "Melakukan kampanye sesuai aturan", "Menghilang dari publik"],
+    correctAnswer: 2,
+    explanation: "Calon Kepala Desa harus melakukan kampanye sesuai aturan setelah ditetapkan (Pasal 36 ayat 3)."
   },
   {
-    "id": 101,
-    "question": "Apa yang harus dilakukan Calon Kepala Desa setelah ditetapkan sebagai calon Kepala Desa oleh panitia pemilihan?",
-    "options": ["Melakukan umum di desa tetangga", "Mengajukan resign dari pekerjaan sebelumnya", "Melakukan kampanye sesuai aturan", "Menghilang dari publik"],
-    "correctAnswer": 2,
-    "explanation": "Calon Kepala Desa harus melakukan kampanye sesuai aturan setelah ditetapkan (Pasal 36 ayat 3)."
+    id: 102,
+    question: "Apakah Badan Permusyawaratan Desa memiliki waktu yang ditentukan untuk menyampaikan nama calon Kepala Desa terpilih?",
+    options: ["Ya, paling lama 30 hari", "Tidak ada batas waktu", "14 hari sesudah pemilihan", "60 hari sejak pemungutan suara"],
+    correctAnswer: 0,
+    explanation: "Badan Permusyawaratan Desa harus menyampaikan nama calon paling lama 30 hari (Pasal 37 ayat 3)."
   },
   {
-    "id": 102,
-    "question": "Apakah Badan Permusyawaratan Desa memiliki waktu yang ditentukan untuk menyampaikan nama calon Kepala Desa terpilih?",
-    "options": ["Ya, paling lama 30 hari", "Tidak ada batas waktu", "14 hari sesudah pemilihan", "60 hari sejak pemungutan suara"],
-    "correctAnswer": 0,
-    "explanation": "Badan Permusyawaratan Desa harus menyampaikan nama calon paling lama 30 hari (Pasal 37 ayat 3)."
+    id: 103,
+    question: "Siapakah yang secara resmi mengesahkan calon Kepala Desa terpilih?",
+    options: ["Panitia pemilihan Kepala Desa", "Bupati/Walikota", "Kementerian Dalam Negeri", "Presiden"],
+    correctAnswer: 1,
+    explanation: "Bupati/Walikota secara resmi mengesahkan calon Kepala Desa terpilih (Pasal 37 ayat 5)."
   },
   {
-    "id": 103,
-    "question": "Siapakah yang secara resmi mengesahkan calon Kepala Desa terpilih?",
-    "options": ["Panitia pemilihan Kepala Desa", "Bupati/Walikota", "Kementerian Dalam Negeri", "Presiden"],
-    "correctAnswer": 1,
-    "explanation": "Bupati/Walikota secara resmi mengesahkan calon Kepala Desa terpilih (Pasal 37 ayat 5)."
+    id: 104,
+    question: "Apakah Kepala Desa terpilih harus dilantik sebelum memangku jabatannya?",
+    options: ["Ya", "Tidak", "Tergantung pada keinginan Kepala Desa terpilih", "Tidak disebutkan dalam Pasal 36"],
+    correctAnswer: 0,
+    explanation: "Kepala Desa harus dilantik sebelum memangku jabatannya sesuai Pasal 38 ayat (1)."
   },
   {
-    "id": 104,
-    "question": "Apakah Kepala Desa terpilih harus dilantik sebelum memangku jabatannya?",
-    "options": ["Ya", "Tidak", "Tergantung pada keinginan Kepala Desa terpilih", "Tidak disebutkan dalam Pasal 36"],
-    "correctAnswer": 0,
-    "explanation": "Kepala Desa harus dilantik sebelum memangku jabatannya sesuai Pasal 38 ayat (1)."
-  },
-  {
-    "id": 105,
-    "question": "Berapa lama waktu yang dimiliki Bupati/Walikota untuk menyelesaikan perselisihan hasil pemilihan Kepala Desa?",
-    "options": ["14 hari", "30 hari", "60 hari", "90 hari"],
-    "correctAnswer": 1,
-    "explanation": "Bupati/Walikota memiliki waktu 30 hari untuk menyelesaikan perselisihan hasil pemilihan sesuai Pasal 37 ayat (6)."
+    id: 105,
+    question: "Berapa lama waktu yang dimiliki Bupati/Walikota untuk menyelesaikan perselisihan hasil pemilihan Kepala Desa?",
+    options: ["14 hari", "30 hari", "60 hari", "90 hari"],
+    correctAnswer: 1,
+    explanation: "Bupati/Walikota memiliki waktu 30 hari untuk menyelesaikan perselisihan hasil pemilihan sesuai Pasal 37 ayat (6)."
   }
   
 ].map(transformQuestion);
