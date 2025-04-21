@@ -534,5 +534,77 @@ export const questions: Question[] = [
     },
     correctAnswer: "a",
     explanation: ""
+  },
+  {
+    "id": 56,
+    "question": "Berapa masa jabatan kepala desa setelah perubahan Undang-Undang Nomor 3 Tahun 2024?",
+    "options": ["4 tahun", "8 tahun", "10 tahun", "12 tahun"],
+    "correctAnswer": 1,
+    "explanation": "Setelah perubahan Undang-Undang, masa jabatan kepala desa menjadi 8 tahun."
+  },
+  {
+    "id": 57,
+    "question": "Berapa periode maksimal kepala desa dapat dipilih kembali setelah perubahan undang-undang?",
+    "options": ["1 periode", "2 periode", "3 periode", "4 periode"],
+    "correctAnswer": 1,
+    "explanation": "Kepala desa dapat dipilih kembali maksimal 2 periode setelah perubahan undang-undang."
+  },
+  {
+    "id": 58,
+    "question": "Alokasi Dana Desa setelah perubahan UU Desa harus minimal berapa persen dari total transfer ke daerah?",
+    "options": ["5%", "8%", "10%", "15%"],
+    "correctAnswer": 2,
+    "explanation": "Alokasi Dana Desa minimal 10% dari total transfer ke daerah sesuai dengan perubahan Undang-Undang."
+  },
+  {
+    "id": 59,
+    "question": "Apa yang dapat dilakukan Desa berdasarkan kewenangan yang lebih luas sesuai dengan UU Desa yang baru?",
+    "options": ["Mengelola sumber daya alam", "Mengelola bandara", "Mengelola pertambangan", "Mengelola perusahaan swasta"],
+    "correctAnswer": 0,
+    "explanation": "Desa dapat mengelola sumber daya alam berdasarkan kewenangan yang lebih luas dalam Undang-Undang baru."
+  },
+  {
+    "id": 60,
+    "question": "Apa status perangkat desa setelah perubahan UU Desa menjadi berdasarkan pegawai pemerintah dengan perjanjian kerja (PPPK)?",
+    "options": ["Pegawai PNS", "Pegawai BUMN", "Pegawai Swasta", "Pegawai PPPK"],
+    "correctAnswer": 3,
+    "explanation": "Status perangkat desa berubah menjadi pegawai pemerintah dengan perjanjian kerja (PPPK) setelah perubahan Undang-Undang."
+  },
+  {
+    "id": 61,
+    "question": "Peningkatan kelembagaan desa bertujuan untuk meningkatkan apa?",
+    "options": ["Partisipasi masyarakat dalam pembangunan desa", "Pengaruh pemerintah pusat", "Otonomi daerah", "Peran tentara dalam desa"],
+    "correctAnswer": 0,
+    "explanation": "Peningkatan kelembagaan desa bertujuan untuk meningkatkan partisipasi masyarakat dalam pembangunan desa."
+  },
+  {
+    "id": 62,
+    "question": "Apa yang diatur dalam UU Desa baru mengenai penguatan peran perempuan dalam pembangunan desa?",
+    "options": ["Pemberian beasiswa", "Pelarangan bekerja", "Pengecualian dalam pemilihan kepala desa", "Peningkatan peran"],
+    "correctAnswer": 3,
+    "explanation": "UU Desa baru mengatur penguatan peran perempuan dalam pembangunan desa dengan tujuan meningkatkan peran mereka."
+  },
+  {
+    "id": 63,
+    "question": "Apa yang dilakukan Badan Usaha Milik Desa (BUMDes) untuk meningkatkan perekonomian desa?",
+    "options": ["Menyulap uang", "Menjalankan bisnis", "Meminjam uang", "Menabung dana desa"],
+    "correctAnswer": 1,
+    "explanation": "BUMDes menjalankan bisnis untuk meningkatkan perekonomian desa sesuai dengan peraturan UU Desa."
+  },
+  {
+    "id": 64,
+    "question": "Berdasarkan UU Desa baru, siapakah yang memiliki kewenangan untuk membentuk Badan Usaha Milik Desa (BUMDes)?",
+    "options": ["Pemerintah Pusat", "Pemerintah Provinsi", "Kepala Desa", "Masyarakat Desa"],
+    "correctAnswer": 3,
+    "explanation": "Masyarakat desa memiliki kewenangan untuk membentuk BUMDes berdasarkan UU Desa baru."
+  },
+  {
+    "id": 65,
+    "question": "Apa yang diatur dalam UU Desa baru mengenai peningkatan kesejahteraan kepala desa dan perangkat desa?",
+    "options": ["Asuransi kesehatan", "Tunjangan pensiun", "Peningkatan gaji", "Izin libur tambahan"],
+    "correctAnswer": 2,
+    "explanation": "UU Desa baru mengatur peningkatan gaji untuk meningkatkan kesejahteraan kepala desa dan perangkat desa."
   }
+  
+  
 ].map(transformQuestion);
