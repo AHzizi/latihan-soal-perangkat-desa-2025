@@ -12,6 +12,7 @@ export function Quiz() {
     showResults: false,
     userInfo: null,
   });
+  
 
   const handleUserSubmit = (userInfo: UserInfo) => {
     setState(prev => ({ ...prev, userInfo }));
